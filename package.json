@@ -1,0 +1,19 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "adm-zip": "^0.5.14",
+    "archiver": "^7.0.1",
+    "cat-loggr": "^1.2.2",
+    "discord.js": "^14.15.3"
+  }
+}
