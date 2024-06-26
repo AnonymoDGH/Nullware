@@ -28,7 +28,7 @@ for (const file of commandFiles) {
 };
 
 // Client login
-client.login(process.env.TOKEN);
+client.login('');
 
 client.once('ready', () => {
   log.info(`I am logged in as ${client.user.tag} to Discord!`); // Say hello to console
