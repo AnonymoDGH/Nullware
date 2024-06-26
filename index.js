@@ -8,15 +8,7 @@ const AdmZip = require('adm-zip');
 const archiver = require('archiver');
 
 // Functions
-const client = new Client({
-intents: [
-GatewayIntentBits.Guilds,
-GatewayIntentBits.GuildMessages,
-GatewayIntentBits.MessageContent,
-GatewayIntentBits.GuildMembers,
-],
-});
-
+const client = new Discord.Client();
 const log = new CatLoggr();
 
 // New discord collections
