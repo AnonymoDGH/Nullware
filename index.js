@@ -83,7 +83,3 @@ client.on('message', (message) => {
         };
   };
 });
-
-//By ash3r#1000
-//Subscribe 
-// For Help Join https://discord.gg/jsk
